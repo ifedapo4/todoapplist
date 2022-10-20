@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+  min-width: 250px;
+}
+
+body{
+	  font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    background-image: url('images/bg-desktop-dark.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    /*background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);*/
+}
+
+.parent{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+h2{
+    text-transform: uppercase;
+    color: #ffff;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 50px;
+    margin-right: 350px;
+    margin-left: 300px:
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: hsl(235, 21%, 11%);
+  font-size: 18px;
+  transition: 0.2s;
+  width: 550px;
+  height: 100px;
+  
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Darker background-color on hover */
+ul li a:hover {
+  outline: none;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li a.checked {
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li  a.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 250px;
+}
+
+.close:hover {
+  background-color: hsl(235, 21%, 11%);
+  color: white;
+}
+
+/* Style the header */
+.header {
+  background-color: ;
+  padding: 40px 200px 100px 200px;
+  color: white;
+  text-align: center;
+  margin-left: 280px;
+  margin-right: 230px;
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 50%;
+  padding: 15px;
+  position: relative;
+  float: left;
+  font-size: 16px;
+  background: hsl(235, 21%, 11%);
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 15px;
+  width: 20px;
+  background: hsl(235, 21%, 11%);
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: ;
+  color: #fff;
+}
+
+.list{
+  margin-top: 50px;
+}
+#icon{
+  padding: 40px 200px 100px 200px;
+  color: white;
+  text-align: center;
+  margin-left: 980px;
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
